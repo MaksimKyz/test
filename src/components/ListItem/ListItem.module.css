@@ -1,0 +1,23 @@
+.ListItem {
+	width: 20%;
+	aspect-ratio: 1 / 1;
+	color: #000;
+}
+
+.ListItemEnterActive {
+	opacity: 0;
+	transform: translateX(-600px);
+}
+.ListItemEnterDone {
+	opacity: 1;
+	transform: translateX(0px);
+	transition: all 200ms linear;
+}
+.ListItemExit {
+	opacity: 1;
+}
+.ListItemExitActive {
+	opacity: 0;
+	transform: translateX(600px);
+	transition: all 200ms linear;
+}

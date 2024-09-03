@@ -1,0 +1,6 @@
+.List {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	transition: all 200ms linear;
+}
